@@ -11,10 +11,10 @@ msgstr ""
 "PO-Revision-Date: 2014-11-06 16:55+0900\n"
 "Last-Translator: sane <sanemat@tachikoma.io>\n"
 "Language-Team: English\n"
+"Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: en\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 # a4657cafd1544f10b6afe6e8c2de1acc
@@ -24,14 +24,16 @@ msgstr "Dependency Update as a Service"
 
 # e6b24494c2544f97a48c7c8776c1bfdc
 #: ../../index.rst:4
-msgid "Tachikoma.io will get rid of your dependency hell"
+#, fuzzy
+msgid "Tachikomaio will get rid of your dependency hell"
 msgstr ""
 "Tachikoma.io will get rid of your dependency hell. Dependency update is not "
 "what you want to do! You want to write application!"
 
 # 4100348f65d4401893ad55fb0ba35474
 #: ../../index.rst:7
-msgid "Just leave what Tachikoma.io can do and do what you want to do"
+#, fuzzy
+msgid "Just leave what Tachikomaio can do and do what you want to do"
 msgstr "Just leave what Tachikoma.io can do and do what you want to do."
 
 # 492b5095402e4631942c4436141ed9c2
@@ -108,7 +110,8 @@ msgstr "This is a human job that passes test and confirms diff."
 
 # a30ef4b45488420c8cf1fc6cb61f6764
 #: ../../index.rst:126
-msgid "What is Tachikoma.io"
+#, fuzzy
+msgid "What is Tachikomaio"
 msgstr "What is Tachikoma.io"
 
 # 8bcf0e78659c481b872157608abccf22

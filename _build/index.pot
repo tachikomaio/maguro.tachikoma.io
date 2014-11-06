@@ -23,12 +23,12 @@ msgstr "Dependency Update as a Service"
 
 #: ../../index.rst:4
 # e6b24494c2544f97a48c7c8776c1bfdc
-msgid "Tachikoma.io will get rid of your dependency hell"
+msgid "Tachikomaio will get rid of your dependency hell"
 msgstr "Tachikoma.io will get rid of your dependency hell. Dependency update is not what you want to do! You want to write application!"
 
 #: ../../index.rst:7
 # 4100348f65d4401893ad55fb0ba35474
-msgid "Just leave what Tachikoma.io can do and do what you want to do"
+msgid "Just leave what Tachikomaio can do and do what you want to do"
 msgstr "Just leave what Tachikoma.io can do and do what you want to do."
 
 #: ../../index.rst:9
@@ -99,7 +99,7 @@ msgstr "This is a human job that passes test and confirms diff."
 
 #: ../../index.rst:126
 # a30ef4b45488420c8cf1fc6cb61f6764
-msgid "What is Tachikoma.io"
+msgid "What is Tachikomaio"
 msgstr "What is Tachikoma.io"
 
 #: ../../index.rst:128
