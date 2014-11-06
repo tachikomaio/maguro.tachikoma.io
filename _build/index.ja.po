@@ -20,7 +20,7 @@ msgstr ""
 # a4657cafd1544f10b6afe6e8c2de1acc
 #: ../../index.rst:2
 msgid "Dependency Update as a Service"
-msgstr "依存ヘル"
+msgstr "Dependency Update as a Service"
 
 # e6b24494c2544f97a48c7c8776c1bfdc
 #: ../../index.rst:4
