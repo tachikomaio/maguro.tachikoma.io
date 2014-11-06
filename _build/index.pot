@@ -225,4 +225,7 @@ msgstr "Talk"
 #: ../../index.rst:381
 # 06e391d152854359bc505d1c998d17f9
 msgid "When was the build passing"
-msgstr "When was the build passing? その build passingはいつ? - Travis CI and Tachikoma.io (sanemat) / Travis CI Meetup 2014-09-17"
+msgstr "When was the build passing?"
+
+msgid "Travis CI Meetup 2014-09-17"
+msgstr "Travis CI and Tachikoma.io (sanemat) / Travis CI Meetup 2014-09-17"
