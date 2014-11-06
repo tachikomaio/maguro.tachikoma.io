@@ -1,1 +1,3 @@
 # Created by .gitignore support plugin (hsz.mobi)
+_build/locale/.doctrees/environment.pickle
+_build/locale/.doctrees/index.doctree
