@@ -39,5 +39,6 @@
     "For private organization": "For private organization $49/mo",
     "For enterprise": "For enterprise, please email: sanemat {AT} tachikoma.io",
     "Talk": "Talk",
-    "When was the build passing": "When was the build passing? その build passingはいつ? - Travis CI and Tachikoma.io (sanemat) / Travis CI Meetup 2014-09-17"
+    "When was the build passing": "その build passingはいつ?",
+    "Travis CI Meetup 2014-09-17": "Travis CI and Tachikoma.io (sanemat) / Travis CI Meetup 2014-09-17"
 }
