@@ -1,0 +1,39 @@
+# Iteration
+
+$ brew install gettext # convert .pot to .po
+$ npm install -g i18next-conv # convert .po to .json
+
+Edit index.html
+Add data-i18n attribute
+This is msgid
+(Caution: Remove period from msgid!)
+
+Add msgid + msgstr to _build/index.pot
+
+$ msgmerge -U _build/index.en.po _build/index.pot
+$ msgmerge -U _build/index.ja.po _build/index.pot
+
+Translate *.po
+
+$ i18next-conv -l ja -s ./_build/index.ja.po -t ./locales/ja/translation.json
+$ i18next-conv -l en -s ./_build/index.en.po -t ./locales/en/translation.json
+
+Done!
+
+# Initial
+
+$ brew install gettext
+$ npm install -g i18next-conv
+$ cabal install pandoc
+$ pip install sphinx
+
+# https://github.com/tachikomaio/maguro.tachikoma.io/pull/32
+index.html to index.rst (pandoc)
+$ ~/.cabal/bin/pandoc -f html -t rst -o index.rst index.html
+index.rst to index.pot (sphinx)
+$ make gettext
+
+$ msginit --locale=ja --input=_build/locale/index.pot --output=locale/ja/LC_MESSAGES/index.po
+
+# See: (3日目) Sphinx の文書を翻訳してみよう (gettext機能) Hack like a rolling stone
+# http://tk0miya.hatenablog.com/entry/20111203/p1
