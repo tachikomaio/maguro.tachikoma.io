@@ -44,7 +44,7 @@ source_suffix = '.rst'
 #source_encoding = 'utf-8-sig'
 
 # The master toctree document.
-master_doc = 'foo'
+master_doc = 'index'
 
 # General information about the project.
 project = u'maguro'
@@ -200,7 +200,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('foo', 'maguro.tex', u'maguro Documentation',
+  ('index', 'maguro.tex', u'maguro Documentation',
    u'sanemat', 'manual'),
 ]
 
@@ -230,7 +230,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('foo', 'maguro', u'maguro Documentation',
+    ('index', 'maguro', u'maguro Documentation',
      [u'sanemat'], 1)
 ]
 
@@ -244,7 +244,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('foo', 'maguro', u'maguro Documentation',
+  ('index', 'maguro', u'maguro Documentation',
    u'sanemat', 'maguro', 'One line description of project.',
    'Miscellaneous'),
 ]
