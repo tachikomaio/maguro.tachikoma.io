@@ -1,3 +1,7 @@
+# TL;DR
+
+Use gettext format and i18next flow.
+
 # Iteration
 
 $ brew install gettext # convert .pot to .po
