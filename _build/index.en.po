@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: maguro 0.1.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-11-06 14:43+0900\n"
-"PO-Revision-Date: 2014-11-06 15:15+0900\n"
+"PO-Revision-Date: 2014-11-06 16:55+0900\n"
 "Last-Translator: sane <sanemat@tachikoma.io>\n"
 "Language-Team: English\n"
 "MIME-Version: 1.0\n"
@@ -24,16 +24,14 @@ msgstr "Dependency Update as a Service"
 
 # e6b24494c2544f97a48c7c8776c1bfdc
 #: ../../index.rst:4
-msgid ""
-"Tachikoma.io will get rid of your dependency hell. Dependency update is not "
-"what you want to do! You want to write application!"
+msgid "Tachikoma.io will get rid of your dependency hell"
 msgstr ""
 "Tachikoma.io will get rid of your dependency hell. Dependency update is not "
 "what you want to do! You want to write application!"
 
 # 4100348f65d4401893ad55fb0ba35474
 #: ../../index.rst:7
-msgid "Just leave what Tachikoma.io can do and do what you want to do."
+msgid "Just leave what Tachikoma.io can do and do what you want to do"
 msgstr "Just leave what Tachikoma.io can do and do what you want to do."
 
 # 492b5095402e4631942c4436141ed9c2
@@ -43,29 +41,27 @@ msgstr "Just leave what Tachikoma.io can do and do what you want to do."
 # 72f956854ab3445f9c31295ee9b67bbc
 #: ../../index.rst:9 ../../index.rst:163 ../../index.rst:237
 #: ../../index.rst:302 ../../index.rst:356
-msgid "`** Sign in with GitHub <https://blue.tachikoma.io/auth/github>`__"
-msgstr "`** Sign in with GitHub <https://blue.tachikoma.io/auth/github>`__"
+msgid "Sign in with GitHub"
+msgstr "Sign in with GitHub"
 
 # 28313bf5dd8d456eaed4300ebec9fbfa
 #: ../../index.rst:15
-msgid "Interested? `Read on <#features>`__"
-msgstr "Interested? `Read on <#features>`__"
+msgid "Interested"
+msgstr "Interested?"
+
+msgid "Read on"
+msgstr "Read on"
 
 # 79ec9dfde9d54a9faf00bebd8f88713f
 #: ../../index.rst:26
-msgid ""
-"Everyone knows it is good to continue to use the latest libraries/"
-"programming language, but what's stopping them?"
+msgid "Everyone knows it is good to continue to use"
 msgstr ""
 "Everyone knows it is good to continue to use the latest libraries/"
 "programming language, but what's stopping them?"
 
 # e833a57ef21f4481acfc94d4b51afe56
 #: ../../index.rst:28
-msgid ""
-"We know it is good to continue to use the latest libraries/programming "
-"language. We enjoy new library features, increase in speed, and other "
-"benefits. Everyone knows this, but what's stopping them?"
+msgid "We know it is good to continue to use"
 msgstr ""
 "We know it is good to continue to use the latest libraries/programming "
 "language. We enjoy new library features, increase in speed, and other "
@@ -73,7 +69,7 @@ msgstr ""
 
 # d9153697e2ae4c549e2d39e344264221
 #: ../../index.rst:32
-msgid "I believe it's due to the lack of tools and integrations."
+msgid "I believe it's due to the lack of tools and integrations"
 msgstr "I believe it's due to the lack of tools and integrations."
 
 # bc6897da470a477faf234c8ea47d8a3a
@@ -83,12 +79,10 @@ msgstr "Interval pull request"
 
 # 3c6fa62071304db78766763ff9b4de0b
 #: ../../index.rst:57
-msgid ""
-"Interval \\_pull request\\_ is performing automatic, with strategy \"Bundler"
-"\", \"David\", \"Carton\" if you set."
+msgid "Interval pull request is performing automatic with strategy"
 msgstr ""
-"Interval \\_pull request\\_ is performing automatic, with strategy \"Bundler"
-"\", \"David\", \"Carton\" if you set."
+"Interval pull request is performing automatic, with strategy \"Bundler\", "
+"\"David\", \"Carton\" if you set."
 
 # 66a2242287754ac8883c44e3f670c3f1
 #: ../../index.rst:69
@@ -97,9 +91,7 @@ msgstr "One click"
 
 # 3c62a9555ce446588639eaea40ecc289
 #: ../../index.rst:71
-msgid ""
-"What we only do is pressing merge button because this app sends pull request "
-"with updating dependencies."
+msgid "What we only do is pressing merge button"
 msgstr ""
 "What we only do is pressing merge button because this app sends pull request "
 "with updating dependencies."
@@ -111,13 +103,8 @@ msgstr "Judgement by human"
 
 # e757d5dcea0543b5a97338ad87edb653
 #: ../../index.rst:85
-msgid "This is a human job that passes test and confirms diff."
+msgid "This is a human job that passes test and confirms diff"
 msgstr "This is a human job that passes test and confirms diff."
-
-# 81b5a5cb09864bdeafda8d351859a106
-#: ../../index.rst:103
-msgid "`Read on <#register>`__"
-msgstr "`Read on <#register>`__"
 
 # a30ef4b45488420c8cf1fc6cb61f6764
 #: ../../index.rst:126
@@ -126,17 +113,7 @@ msgstr "What is Tachikoma.io"
 
 # 8bcf0e78659c481b872157608abccf22
 #: ../../index.rst:128
-msgid ""
-"Not updating the dependent libraries, does not damage the library/"
-"application immediately. When adding a new library that you want to use, "
-"occurring a security issue in a library which is already in use, it is "
-"extremely difficult to find the right version that functions properly with "
-"it. Even if you find the right combination, it's very reactionary and it "
-"even gets harder when adding the next one. Furthermore, sometimes with an "
-"older version, you won't be able to enjoy new library features, increase in "
-"speed, updated version of Ruby/Node.js/etc., and other benefits. Ultimately, "
-"choosing the latest(stable) combination periodically will keep damages to a "
-"minimum. Everyone knows this, but what's stopping them?"
+msgid "Not updating the dependent libraries"
 msgstr ""
 "Not updating the dependent libraries, does not damage the library/"
 "application immediately. When adding a new library that you want to use, "
@@ -151,9 +128,7 @@ msgstr ""
 
 # 3d06058598fd47b39070b252dc283e07
 #: ../../index.rst:140
-msgid ""
-"I believe it's due to the lack of tools and integrations. That is where "
-"Tachikoma.io comes in."
+msgid "I believe it's due to the lack of tools and integrations that is where"
 msgstr ""
 "I believe it's due to the lack of tools and integrations. That is where "
 "Tachikoma.io comes in."
@@ -165,23 +140,18 @@ msgstr "How to Achieve Your Goals"
 
 # 0d8f7378364448bd9883a63adec3e646
 #: ../../index.rst:209
-msgid "Activate Your repository"
-msgstr "Activate Your repository"
+msgid "Activate Your Repository"
+msgstr "Activate Your Repository"
 
 # 799f0fc1a2e5455d87d2db5ae3d2d4b1
 #: ../../index.rst:211
-msgid "|Activate Your Repository| Interval Pull Request ~~~~~~~~~~~~~~~~~~~~~"
-msgstr "|Activate Your Repository| Interval Pull Request ~~~~~~~~~~~~~~~~~~~~~"
+msgid "Interval Pull Request"
+msgstr "Interval Pull Request"
 
 # 36d2518eb3d1470594dc364c05ba661e
 #: ../../index.rst:215
-msgid "|Interval Pull Request| Hit Merge Button ~~~~~~~~~~~~~~~~"
-msgstr "|Interval Pull Request| Hit Merge Button ~~~~~~~~~~~~~~~~"
-
-# bb281fb44d814490b336f882ddde87e3
-#: ../../index.rst:219
-msgid "|Hit Merge Button|"
-msgstr "|Hit Merge Button|"
+msgid "Hit Merge Button"
+msgstr "Hit Merge Button"
 
 # 0de312f423964fa48a651e5b47f520bd
 #: ../../index.rst:260
@@ -205,7 +175,7 @@ msgstr "Carton (Perl)"
 
 # ab605163b951439b96bbdcd410e13e30
 #: ../../index.rst:265
-msgid "None-strategy (Default, Only Interval Pull Request)"
+msgid "None-strategy"
 msgstr "None-strategy (Default, Only Interval Pull Request)"
 
 # 01fe6fdf914247eb89c5fb48da035e45
@@ -215,46 +185,30 @@ msgstr "Plan"
 
 # 1656950024c64e1ba8651479a0491ef6
 #: ../../index.rst:270
-msgid ""
-"We have a plan to support other strategies (languages), but we are not "
-"familiar with them, so you are welcome to contribute!"
+msgid "We have a plan to support other strategies"
 msgstr ""
 "We have a plan to support other strategies (languages), but we are not "
 "familiar with them, so you are welcome to contribute!"
 
 # 8d02d91e2c5d40f38033c94a6cf5d277
 #: ../../index.rst:273
-msgid ""
-"`Adjust Python #110 <https://github.com/sanemat/tachikoma/issues/110>`__"
-msgstr ""
-"`Adjust Python #110 <https://github.com/sanemat/tachikoma/issues/110>`__"
+msgid "Adjust Python"
+msgstr "Adjust Python #110"
 
 # 2016ab8364e34eb9bf44393d2d7e0c85
 #: ../../index.rst:275
-msgid ""
-"`Adjust composer (PHP) #109 <https://github.com/sanemat/tachikoma/"
-"issues/109>`__"
-msgstr ""
-"`Adjust composer (PHP) #109 <https://github.com/sanemat/tachikoma/"
-"issues/109>`__"
+msgid "Adjust composer (PHP)"
+msgstr "Adjust composer (PHP) #109"
 
 # d5878e3e445e48f5ad6b36fc03db94e7
 #: ../../index.rst:277
-msgid ""
-"`Adjust cocoapods (Objective-C) #102 <https://github.com/sanemat/tachikoma/"
-"issues/102>`__"
-msgstr ""
-"`Adjust cocoapods (Objective-C) #102 <https://github.com/sanemat/tachikoma/"
-"issues/102>`__"
+msgid "Adjust cocoapods (Objective-C)"
+msgstr "Adjust cocoapods (Objective-C) #102"
 
 # 863ec324365b4da1b549e8b7ed0eaad0
 #: ../../index.rst:279
-msgid ""
-"`I want an another strategy (language)! <https://github.com/sanemat/"
-"tachikoma/issues/new>`__"
-msgstr ""
-"`I want an another strategy (language)! <https://github.com/sanemat/"
-"tachikoma/issues/new>`__"
+msgid "I want an another strategy (language)"
+msgstr "I want an another strategy (language)!"
 
 # bcdbf0f1b7da4227ac8b59f26611f7ad
 #: ../../index.rst:325
@@ -263,9 +217,7 @@ msgstr "Pricing"
 
 # 5ffe6e02d8034a2686cdb787fac2237c
 #: ../../index.rst:327
-msgid ""
-"It is free for public repositories, however, requires monthly subscription "
-"for private repositories."
+msgid "It is free for public repositories"
 msgstr ""
 "It is free for public repositories, however, requires monthly subscription "
 "for private repositories."
@@ -277,21 +229,17 @@ msgstr "For public FREE"
 
 # f51d276ccb6c4f5babefd870aee1ebb0
 #: ../../index.rst:331
-msgid ""
-"`** For private individual $9/mo [STRIKEOUT:$19] <https://gumroad.com/l/"
-"JwtkV/init>`__"
-msgstr ""
-"`** For private individual $9/mo [STRIKEOUT:$19] <https://gumroad.com/l/"
-"JwtkV/init>`__"
+msgid "For private individual"
+msgstr "For private individual $9/mo"
 
 # 1ea66a17a2594792b6e32234efcb20e7
 #: ../../index.rst:333
-msgid "`** For private organization $49/mo <https://gumroad.com/l/oDPx>`__"
-msgstr "`** For private organization $49/mo <https://gumroad.com/l/oDPx>`__"
+msgid "For private organization"
+msgstr "For private organization $49/mo"
 
 # c92fd443eb4c45cea29b8bbbac533364
 #: ../../index.rst:334
-msgid "For enterprise, please email: sanemat {AT} tachikoma.io"
+msgid "For enterprise"
 msgstr "For enterprise, please email: sanemat {AT} tachikoma.io"
 
 # 33f8d1bbe0c54774b5801d2b6b95f239
@@ -301,31 +249,7 @@ msgstr "Talk"
 
 # 06e391d152854359bc505d1c998d17f9
 #: ../../index.rst:381
-msgid ""
-"`When was the build passing? その build passingはいつ? <http://sanemat."
-"github.io/talks/20140917-travis-ci-meetup-tachikoma-io/>`__ - Travis CI and "
-"Tachikoma.io (sanemat) / Travis CI Meetup 2014-09-17"
+msgid "When was the build passing"
 msgstr ""
-"`When was the build passing? その build passingはいつ? <http://sanemat."
-"github.io/talks/20140917-travis-ci-meetup-tachikoma-io/>`__ - Travis CI and "
+"When was the build passing? その build passingはいつ? - Travis CI and "
 "Tachikoma.io (sanemat) / Travis CI Meetup 2014-09-17"
-
-# 6d8a2057ac5c40a492c6a441d1b7ca0c
-#: ../../index.rst:389
-msgid "`Twitter <https://twitter.com/tachikomaio/>`__"
-msgstr "`Twitter <https://twitter.com/tachikomaio/>`__"
-
-# 6f4519c5e444411c8d246697bc1055b7
-#: ../../index.rst:390
-msgid "`GitHub <https://github.com/sanemat/>`__"
-msgstr "`GitHub <https://github.com/sanemat/>`__"
-
-# 61e18a50ef564496ad5ed78816f6e372
-#: ../../index.rst:396
-msgid "Founder: sanemat (sanemat\\_AT\\_tachikoma.io)"
-msgstr "Founder: sanemat (sanemat\\_AT\\_tachikoma.io)"
-
-# edc23f16cd334a10ba49379fe3c3115b
-#: ../../index.rst:397
-msgid "Design: HTML5 UP (http://html5up.net/)"
-msgstr "Design: HTML5 UP (http://html5up.net/)"
