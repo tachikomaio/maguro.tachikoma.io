@@ -11,7 +11,9 @@
     <!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
     <script src="js/jquery.min.js"></script>
     <script src="js/skel.min.js"></script>
+    <script src="js/i18next-1.7.4.min.js"></script>
     <script src="js/init.js"></script>
+    <script src="js/i18n.js"></script>
     <noscript>
       <link rel="stylesheet" href="css/skel-noscript.css" />
       <link rel="stylesheet" href="css/style.css" />
@@ -23,30 +25,30 @@
   <body>
   <section id="header" class="dark">
     <header>
-      <h1>Dependency Update as a Service</h1>
-      <p>
+      <h1 data-i18n="Dependency Update as a Service">Dependency Update as a Service</h1>
+      <p data-i18n="Tachikomaio will get rid of your dependency hell">
         Tachikoma.io will get rid of your dependency hell.
         Dependency update is not what you want to do!
         You want to write application!
       </p>
-      <p>
+      <p data-i18n="Just leave what Tachikomaio can do and do what you want to do">
         Just leave what Tachikoma.io can do and do what you want to do.
       </p>
     </header>
     <footer>
-      <a href="https://blue.tachikoma.io/auth/github" class="button"><i class="fa fa-github solo"></i> Sign in with GitHub</a>
-      <div class="suggestion">Interested? <a href="#features" class=" scrolly">Read on</a></div>
+      <a href="https://blue.tachikoma.io/auth/github" class="button"><i class="fa fa-github solo"></i> <span data-i18n="Sign in with GitHub">Sign in with GitHub</span></a>
+      <div class="suggestion"><span data-i18n="Interested">Interested?</span> <a href="#features" class=" scrolly"><span data-i18n="Read on">Read on</span></a></div>
     </footer>
   </section>
 
   <section id="features" class="main">
     <header>
       <div class="container">
-        <h2>
+        <h2 data-i18n="Everyone knows it is good to continue to use">
           Everyone knows it is good to continue to use the latest libraries/programming language,
           but what's stopping them?
         </h2>
-        <p>
+        <p data-i18n="We know it is good to continue to use">
           We know it is good to continue to use the latest libraries/programming language.
           We enjoy new library features,
           increase in speed,
@@ -54,7 +56,7 @@
           Everyone knows this,
           but what's stopping them?
         </p>
-        <p>
+        <p data-i18n="I believe it's due to the lack of tools and integrations">
           I believe it's due to the lack of tools and integrations.
         </p>
       </div>
@@ -66,9 +68,9 @@
             <section>
               <span class="feature-icon"><span class="fa fa-refresh"></span></span>
               <header>
-                <h3>Interval pull request</h3>
+                <h3 data-i18n="Interval pull request">Interval pull request</h3>
               </header>
-              <p>
+              <p data-i18n="Interval pull request is performing automatic with strategy">
                 Interval _pull request_ is performing automatic,
                 with strategy "Bundler", "David", "Carton" if you set.
               </p>
@@ -78,9 +80,9 @@
             <section>
               <span class="feature-icon"><span class="fa fa-bolt"></span></span>
               <header>
-                <h3>One click</h3>
+                <h3 data-i18n="One click">One click</h3>
               </header>
-              <p>
+              <p data-i18n="What we only do is pressing merge button">
                 What we only do is pressing merge button because this app sends pull request with updating dependencies.
               </p>
             </section>
@@ -89,9 +91,9 @@
             <section>
               <span class="feature-icon"><span class="fa fa-group"></span></span>
               <header>
-                <h3>Judgement by human</h3>
+                <h3 data-i18n="Judgement by human">Judgement by human</h3>
               </header>
-              <p>
+              <p data-i18n="This is a human job that passes test and confirms diff">
                 This is a human job that passes test and confirms diff.
               </p>
             </section>
@@ -100,7 +102,7 @@
         <div class="row">
           <div class="12u">
             <footer>
-              <a href="#register" class="button scrolly">Read on</a>
+              <a href="#register" class="button scrolly"><span data-i18n="Read on">Read on</span></a>
             </footer>
           </div>
         </div>
@@ -111,8 +113,8 @@
   <section id="register" class="main">
     <header>
       <div class="container">
-        <h2>What is Tachikoma.io</h2>
-        <p>
+        <h2 data-i18n="What is Tachikomaio">What is Tachikoma.io</h2>
+        <p data-i18n="Not updating the dependent libraries">
           Not updating the dependent libraries,
           does not damage the library/application immediately.
           When adding a new library that you want to use,
@@ -131,7 +133,7 @@
           Everyone knows this,
           but what's stopping them?
         </p>
-        <p>
+        <p data-i18n="I believe it's due to the lack of tools and integrations that is where">
           I believe it's due to the lack of tools and integrations.
           That is where Tachikoma.io comes in.
         </p>
@@ -142,7 +144,7 @@
         <div class="row">
           <div class="12u">
             <footer>
-              <a href="https://blue.tachikoma.io/auth/github" class="button"><i class="fa fa-github solo"></i> Sign in with GitHub</a>
+              <a href="https://blue.tachikoma.io/auth/github" class="button"><i class="fa fa-github solo"></i> <span data-i18n="Sign in with GitHub">Sign in with GitHub</span></a>
             </footer>
           </div>
         </div>
@@ -153,25 +155,25 @@
   <section id="howtouse" class="main">
     <header>
       <div class="container">
-        <h2>How to Achieve Your Goals</h2>
+        <h2 data-i18n="How to Achieve Your Goals">How to Achieve Your Goals</h2>
       </div>
     </header>
     <div class="content dark style3 featured">
       <div class="container">
         <div class="row">
           <div class="12u">
-            <h3>Activate Your repository</h3>
+            <h3 data-i18n="Activate Your Repository">Activate Your repository</h3>
             <span class="image"><img src="images/activate-age.gif" alt="Activate Your Repository" /></span>
-            <h3>Interval Pull Request</h3>
+            <h3 data-i18n="Interval Pull Request">Interval Pull Request</h3>
             <span class="image"><img src="images/interval-pull-request.gif" alt="Interval Pull Request" /></span>
-            <h3>Hit Merge Button</h3>
+            <h3 data-i18n="Hit Merge Button">Hit Merge Button</h3>
             <span class="image"><img src="images/hit-merge-button.gif" alt="Hit Merge Button" /></span>
           </div>
         </div>
         <div class="row">
           <div class="12u">
             <footer>
-              <a href="https://blue.tachikoma.io/auth/github" class="button"><i class="fa fa-github solo"></i> Sign in with GitHub</a>
+              <a href="https://blue.tachikoma.io/auth/github" class="button"><i class="fa fa-github solo"></i> <span data-i18n="Sign in with GitHub">Sign in with GitHub</span></a>
             </footer>
           </div>
         </div>
@@ -182,27 +184,27 @@
   <section id="strategies" class="main">
     <header>
       <div class="container">
-        <h2>Support strategies</h2>
+        <h2 data-i18n="Support strategies">Support strategies</h2>
         <p>
           <ul>
-            <li>Bundler (Ruby)</li>
-            <li>David (Node.js)</li>
-            <li>Carton (Perl)</li>
-            <li>None-strategy (Default, Only Interval Pull Request)</li>
+            <li data-i18n="Bundler (Ruby)">Bundler (Ruby)</li>
+            <li data-i18n="David (Node.js)">David (Node.js)</li>
+            <li data-i18n="Carton (Perl)">Carton (Perl)</li>
+            <li data-i18n="None-strategy">None-strategy (Default, Only Interval Pull Request)</li>
           </ul>
         </p>
-        <h3>Plan</h3>
-        <p>
+        <h3 data-i18n="Plan">Plan</h3>
+        <p data-i18n="We have a plan to support other strategies">
           We have a plan to support other strategies (languages),
           but we are not familiar with them,
           so you are welcome to contribute!
         </p>
         <p>
           <ul>
-            <li><a href="https://github.com/sanemat/tachikoma/issues/110">Adjust Python #110</a></li>
-            <li><a href="https://github.com/sanemat/tachikoma/issues/109">Adjust composer (PHP) #109</a></li>
-            <li><a href="https://github.com/sanemat/tachikoma/issues/102">Adjust cocoapods (Objective-C) #102</a></li>
-            <li><a href="https://github.com/sanemat/tachikoma/issues/new">I want an another strategy (language)!</a></li>
+            <li><a href="https://github.com/sanemat/tachikoma/issues/110"><span data-i18n="Adjust Python">Adjust Python #110</span></a></li>
+            <li><a href="https://github.com/sanemat/tachikoma/issues/109"><span data-i18n="Adjust composer (PHP)">Adjust composer (PHP) #109</span></a></li>
+            <li><a href="https://github.com/sanemat/tachikoma/issues/102"><span data-i18n="Adjust cocoapods (Objective-C)">Adjust cocoapods (Objective-C) #102</span></a></li>
+            <li><a href="https://github.com/sanemat/tachikoma/issues/new"><span data-i18n="I want an another strategy (language)">I want an another strategy (language)!</span></a></li>
           </ul>
         </p>
       </div>
@@ -212,7 +214,7 @@
         <div class="row">
           <div class="12u">
             <footer>
-              <a href="https://blue.tachikoma.io/auth/github" class="button"><i class="fa fa-github solo"></i> Sign in with GitHub</a>
+              <a href="https://blue.tachikoma.io/auth/github" class="button"><i class="fa fa-github solo"></i> <span data-i18n="Sign in with GitHub">Sign in with GitHub</span></a>
             </footer>
           </div>
         </div>
@@ -223,18 +225,18 @@
   <section id="pricing" class="main">
     <header>
       <div class="container">
-        <h2>Pricing</h2>
-        <p>
+        <h2 data-i18n="Pricing">Pricing</h2>
+        <p data-i18n="It is free for public repositories">
           It is free for public repositories,
           however,
           requires monthly subscription for private repositories.
         </p>
         <p>
           <ul>
-            <li>For public FREE</li>
-            <li><a href="https://gumroad.com/l/JwtkV/init"><i class="fa fa-credit-card solo"></i> For private individual $9/mo <del>$19</del></a></li>
-            <li><a href="https://gumroad.com/l/oDPx"><i class="fa fa-credit-card solo"></i> For private organization $49/mo</a></li>
-            <li>For enterprise, please email: sanemat {AT} tachikoma.io</li>
+            <li data-i18n="For public FREE">For public FREE</li>
+            <li><a href="https://gumroad.com/l/JwtkV/init"><i class="fa fa-credit-card solo"></i> <span data-i18n="For private individual">For private individual $9/mo</span> <del>$19</del></a></li>
+            <li><a href="https://gumroad.com/l/oDPx"><i class="fa fa-credit-card solo"></i> <span data-i18n="For private organization">For private organization $49/mo</span></a></li>
+            <li data-i18n="For enterprise">For enterprise, please email: sanemat {AT} tachikoma.io</li>
           </ul>
         </p>
       </div>
@@ -244,7 +246,7 @@
         <div class="row">
           <div class="12u">
             <footer>
-              <a href="https://blue.tachikoma.io/auth/github" class="button"><i class="fa fa-github solo"></i> Sign in with GitHub</a>
+              <a href="https://blue.tachikoma.io/auth/github" class="button"><i class="fa fa-github solo"></i> <span data-i18n="Sign in with GitHub">Sign in with GitHub</span></a>
             </footer>
           </div>
         </div>
@@ -255,10 +257,11 @@
   <section id="talk" class="main">
     <header>
       <div class="container">
-        <h2>Talk</h2>
+        <h2 data-i18n="Talk">Talk</h2>
         <p>
-          <a href="http://sanemat.github.io/talks/20140917-travis-ci-meetup-tachikoma-io/">When was the build passing? その build passingはいつ?</a>
-          -  Travis CI and Tachikoma.io (sanemat) / Travis CI Meetup 2014-09-17
+          <a href="http://sanemat.github.io/talks/20140917-travis-ci-meetup-tachikoma-io/"><span data-i18n="When was the build passing">When was the build passing?</span></a>
+          -
+          <span data-i18n="Travis CI Meetup 2014-09-17">Travis CI and Tachikoma.io (sanemat) / Travis CI Meetup 2014-09-17</span>
         </p>
       </div>
     </header>
