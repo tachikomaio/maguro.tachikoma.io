@@ -28,8 +28,8 @@ msgstr "Dependency Update as a Service"
 msgid "Tachikomaio will get rid of your dependency hell"
 msgstr ""
 "Tachikoma.io がライブラリ依存地獄を取り除いてくれます。"
-"依存のアップデートがあなたのやりたいことじゃないでしょう?"
-"アプリケーション書きたいでしょ!"
+"あなたがやりたいのは依存のアップデートですか?"
+"アプリケーションを書くことですか?"
 
 # 4100348f65d4401893ad55fb0ba35474
 #: ../../index.rst:7
@@ -85,7 +85,7 @@ msgstr "定期的な pull request"
 msgid "Interval pull request is performing automatic with strategy"
 msgstr ""
 "定期的なPull Requestが自動的に届きます。"
-"ストラテジーをセットして、\"Bundler\", \"David\", \"Carton\"と組み合わせて使えます。"
+"\"Bundler\", \"David\", \"Carton\"といった各言語のパケージマネージャーと組み合わせて使うことも出来ます。"
 
 # 66a2242287754ac8883c44e3f670c3f1
 #: ../../index.rst:69
@@ -96,8 +96,8 @@ msgstr "ワンクリック"
 #: ../../index.rst:71
 msgid "What we only do is pressing merge button"
 msgstr ""
-"あなたはマージボタンを押すだけです! "
-"依存ライブラリをバージョンアップしたPull Requestが来るからです。"
+"あなたは\"Merge Pull Request\"ボタンを押すだけです! "
+"Pull Requestは依存ライブラリがバージョンアップ済みです。"
 
 # ce728174f4a24e078c6babee50b6ba08
 #: ../../index.rst:83
@@ -107,7 +107,7 @@ msgstr "人間による判断"
 # e757d5dcea0543b5a97338ad87edb653
 #: ../../index.rst:85
 msgid "This is a human job that passes test and confirms diff"
-msgstr "Testが通るか、そして差分を確認するのは人間の仕事です。"
+msgstr "Testが通るかを確認します。Pull RequestのTestにはTravisCI, CircleCI, Wercker, Jenkinsが便利。Diffも確認します。これらは人間の仕事です。"
 
 # a30ef4b45488420c8cf1fc6cb61f6764
 #: ../../index.rst:126
@@ -154,7 +154,7 @@ msgstr "定期的なPull Request"
 # 36d2518eb3d1470594dc364c05ba661e
 #: ../../index.rst:215
 msgid "Hit Merge Button"
-msgstr "マージボタンを押す"
+msgstr "Merge Pull Requestボタンを押す"
 
 # 0de312f423964fa48a651e5b47f520bd
 #: ../../index.rst:260
@@ -191,7 +191,7 @@ msgstr "プラン"
 msgid "We have a plan to support other strategies"
 msgstr ""
 "上記以外のストラテジー(プログラミング言語)をサポートするプランはあります。"
-"ただそれらに私達が詳しくないので、手助けほしいです!"
+"ただそれらに私達が詳しくないので、助けてください!"
 
 # 8d02d91e2c5d40f38033c94a6cf5d277
 #: ../../index.rst:273
