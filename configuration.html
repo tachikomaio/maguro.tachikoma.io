@@ -64,7 +64,49 @@
         </div>
       </div>
     </section>
-    <section id="custom-configure">
+    <section id="custom-configure" class="main">
+      <header>
+        <div class="container">
+          <h2>Adding custom config</h2>
+        </div>
+      </header>
+      <div class="content dark style2 featured">
+        <div class="container">
+          <ol class="numbered">
+            <li>
+              Add a file named
+              <em class="code">.tachikoma.yml</em>
+              to the root of your repo.
+            </li>
+            <li>
+              Add your custom configuration to
+              <em class="code">.tachikoma.yml</em>
+              file.
+              <p>
+                For example:
+              </p>
+              <code class="code-block">
+                strategy: 'bundler'
+              </code>
+
+              strategy accepts
+              <em class="code">'bundler'</em>
+              <em class="code">'carton'</em>
+              <em class="code">'david'</em>
+              <em class="code">'none'</em>
+              options.
+
+            </li>
+            <li>
+              Commit the changes to your repo, and the following builds will use your custom configuration.
+            </li>
+          </ol>
+
+          <footer>
+            <a href="https://blue.tachikoma.io/auth/github" class="button"><i class="fa fa-github solo"></i> <span data-i18n="Sign in with GitHub">Sign in with GitHub</span></a>
+          </footer>
+        </div>
+      </div>
     </section>
     <section id="authentication">
     </section>
