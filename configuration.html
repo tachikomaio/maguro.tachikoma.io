@@ -22,17 +22,55 @@
     <!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
   </head>
   <body>
-  <section id="configure">
-    <span class="select-language">lang: <a href="?setLng=en-US">en</a> | <a href="?setLng=ja-JP">ja</a></span>
-  </section>
-  <section id="custom-configure">
-  </section>
-  <section id="authentication">
-  </section>
-  <section id="strategies">
-  </section>
-  <section id="pricing">
-  </section>
+  <!--<span class="select-language">lang: <a href="?setLng=en-US">en</a> | <a href="?setLng=ja-JP">ja</a></span>-->
+  <main class="content-doc">
+    <section id="configure">
+      <header>
+        <div class="container">
+          Tachikoma.io configuration (optional)
+        </div>
+        <div>
+          <p>
+            By default, Tachikoma.io uses
+            <a href="https://github.com/sanemat/tachikoma#setting-example">`none` strategy</a>
+            with no additional setup.
+          </p>
+
+          <p>
+            Custom configuration of the style guide is entirely optional and is achieved by specifying rules in
+            <em class="code">.tachikoma.yml</em>
+            file.
+          </p>
+
+          <p>
+            Tachikoma.io uses
+            <a href="http://rubygems.org/gems/tachikoma">Tachikoma v4.2.2</a>
+            gem to handle the pull request.
+            Thus, some of the Tachikoma configuration are supported in Tachikoma.io as well.
+          </p>
+
+          <p>
+            Tachikoma.io will look for
+            <em class="code">.tachikoma.yml</em>
+            file in the root of the repo, and apply the custom configuration on top of the
+            default configuration.
+          </p>
+        </div>
+      </header>
+
+    </section>
+    <section id="custom-configure">
+    </section>
+    <section id="authentication">
+    </section>
+    <section id="strategies">
+    </section>
+    <section id="pricing">
+      <footer>
+        <a href="https://blue.tachikoma.io/auth/github" class="button"><i class="fa fa-github solo"></i> <span data-i18n="Sign in with GitHub">Sign in with GitHub</span></a>
+      </footer>
+    </section>
+  </main>
   <section id="footer">
   <ul class="icons">
     <li><a href="https://twitter.com/tachikomaio/" class="fa fa-twitter solo"><span>Twitter</span></a></li>
