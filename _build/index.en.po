@@ -140,8 +140,7 @@ msgstr ""
 #, fuzzy
 msgid "Everyone knows this but whats stopping them"
 msgstr ""
-"Everyone knows it is good to continue to use the latest libraries/"
-"programming language, but what's stopping them?"
+"Everyone knows this, but what's stopping them?"
 
 # 3d06058598fd47b39070b252dc283e07
 #: ../../index.rst:140
