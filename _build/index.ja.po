@@ -129,29 +129,24 @@ msgstr ""
 "に、もしくは既存のライブラリにセキュリティフィックスがあるときに、各々が正し"
 "く動作するバージョンの組み合わせを見つけることは、非常に困難になってしまって"
 "います。たまたま各々が正しく動作するバージョンの組み合わせを見つけたとして"
-"も、安心できません。次の追加や更新はもっと大変になるのです!そのうえ、低いバー"
-"ジョンのライブラリを使っていると、ライブラリの新機能、高速化、RubyやNode.jsの"
-"バージョンアップなど、様々なメリットを享受できないことがよくあります。結果的"
-"に一番痛みが少ないのは、常に定期的に(安定した)最新版を組み合わせていくことで"
-"す。ここまでみんな知ってるしわかってるのに、なぜ出来ない?"
+"も、安心できません。次の追加や更新はもっと大変になるのです!"
 
 msgid "Furthermore sometimes with an older version"
 msgstr ""
-"Furthermore, sometimes with an older version, you won't be able to enjoy new "
-"library features, increase in speed, updated version of Ruby/Node.js/etc., "
-"and other benefits."
+"そのうえ、低いバー"
+"ジョンのライブラリを使っていると、ライブラリの新機能、高速化、RubyやNode.jsの"
+"バージョンアップなど、様々なメリットを享受できないことがよくあります。"
 
 msgid "Ultimately choosing the latest stable combination"
 msgstr ""
-"Ultimately, choosing the latest(stable) combination periodically will keep "
-"damages to a minimum."
+"結果的に一番痛みが少ないのは、常に定期的に(安定した)最新版を組み合わせていくことで"
+"す。"
 
 # 79ec9dfde9d54a9faf00bebd8f88713f
 #, fuzzy
 msgid "Everyone knows this but whats stopping them"
 msgstr ""
-"プログラミング言語やそのライブラリは、最新版を使い続けるのが一番いい。みんな"
-"知ってるし分かってるのに、なぜ出来ない?"
+"ここまでみんな知ってるしわかってるのに、なぜ出来ない?"
 
 # 3d06058598fd47b39070b252dc283e07
 #: ../../index.rst:140
