@@ -238,3 +238,7 @@ msgstr "When was the build passing?"
 
 msgid "Travis CI Meetup 2014-09-17"
 msgstr "Travis CI and Tachikoma.io (sanemat) / Travis CI Meetup 2014-09-17"
+
+#: ../configuration.html
+msgid "Tachikomaio configuration optional"
+msgstr "Tachikoma.io configuration (optional)"
