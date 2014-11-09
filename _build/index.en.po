@@ -129,6 +129,24 @@ msgstr ""
 "choosing the latest(stable) combination periodically will keep damages to a "
 "minimum. Everyone knows this, but what's stopping them?"
 
+msgid "Furthermore sometimes with an older version"
+msgstr ""
+"Furthermore, sometimes with an older version, you won't be able to enjoy new "
+"library features, increase in speed, updated version of Ruby/Node.js/etc., "
+"and other benefits."
+
+msgid "Ultimately choosing the latest stable combination"
+msgstr ""
+"Ultimately, choosing the latest(stable) combination periodically will keep "
+"damages to a minimum."
+
+# 79ec9dfde9d54a9faf00bebd8f88713f
+#, fuzzy
+msgid "Everyone knows this but whats stopping them"
+msgstr ""
+"Everyone knows it is good to continue to use the latest libraries/"
+"programming language, but what's stopping them?"
+
 # 3d06058598fd47b39070b252dc283e07
 #: ../../index.rst:140
 msgid "I believe it's due to the lack of tools and integrations that is where"
