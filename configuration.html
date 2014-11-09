@@ -1,0 +1,195 @@
+<!DOCTYPE HTML>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="Tachikoma.io configuration" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="http://tachikoma.io/images/activate-age.gif" />
+    <title>Configuration - Tachikoma.io</title>
+    <link rel="canonical" href="http://tachikoma.io/configuration.html">
+    <link href="http://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,400,400italic" rel="stylesheet" type="text/css" />
+    <!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/skel.min.js"></script>
+    <script src="js/i18next-1.7.4.min.js"></script>
+    <script src="js/init.js"></script>
+    <noscript>
+      <link rel="stylesheet" href="css/skel-noscript.css" />
+      <link rel="stylesheet" href="css/style.css" />
+      <link rel="stylesheet" href="css/style-wide.css" />
+    </noscript>
+    <!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+    <!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+  </head>
+  <body>
+  <!--<span class="select-language">lang: <a href="?setLng=en-US">en</a> | <a href="?setLng=ja-JP">ja</a></span>-->
+  <main class="content-doc">
+    <section id="configure" class="main">
+      <header>
+        <div class="container">
+          <h2>Tachikoma.io configuration (optional)</h2>
+        </div>
+      </header>
+      <div class="content dark style1 featured">
+        <div class="container">
+          <p>
+            By default, Tachikoma.io uses
+            <a href="https://github.com/sanemat/tachikoma#setting-example">`none` strategy</a>
+            with no additional setup.
+          </p>
+
+          <p>
+            Custom configuration of the style guide is entirely optional and is achieved by specifying rules in
+            <em class="code">.tachikoma.yml</em>
+            file.
+          </p>
+
+          <p>
+            Tachikoma.io uses
+            <a href="http://rubygems.org/gems/tachikoma">Tachikoma v4.2.2</a>
+            gem to handle the pull request.
+            Thus, some of the Tachikoma configuration are supported in Tachikoma.io as well.
+          </p>
+
+          <p>
+            Tachikoma.io will look for
+            <em class="code">.tachikoma.yml</em>
+            file in the root of the repo, and apply the custom configuration on top of the
+            default configuration.
+          </p>
+
+          <footer>
+            <a href="https://blue.tachikoma.io/auth/github" class="button"><i class="fa fa-github solo"></i> <span data-i18n="Sign in with GitHub">Sign in with GitHub</span></a>
+          </footer>
+        </div>
+      </div>
+    </section>
+    <section id="custom-configure" class="main">
+      <header>
+        <div class="container">
+          <h2>Adding custom config</h2>
+        </div>
+      </header>
+      <div class="content dark style2 featured">
+        <div class="container">
+          <ol class="numbered">
+            <li>
+              Add a file named
+              <em class="code">.tachikoma.yml</em>
+              to the root of your repo.
+            </li>
+            <li>
+              Add your custom configuration to
+              <em class="code">.tachikoma.yml</em>
+              file.
+              <p>
+                For example:
+              </p>
+              <code class="code-block">
+                strategy: 'bundler'
+              </code>
+
+              strategy accepts
+              <em class="code">'bundler'</em>
+              <em class="code">'carton'</em>
+              <em class="code">'david'</em>
+              <em class="code">'none'</em>
+              options.
+
+            </li>
+            <li>
+              Commit the changes to your repo, and the following builds will use your custom configuration.
+            </li>
+          </ol>
+
+          <footer>
+            <a href="https://blue.tachikoma.io/auth/github" class="button"><i class="fa fa-github solo"></i> <span data-i18n="Sign in with GitHub">Sign in with GitHub</span></a>
+          </footer>
+        </div>
+      </div>
+    </section>
+    <section id="authentication" class="main">
+      <header>
+        <div class="container">
+          <h2>Authentication</h2>
+        </div>
+      </header>
+      <div class="content dark style2 featured">
+        <div class="container">
+          <div class="additional-permission">
+            If you give additional permission
+            <a href="https://blue.tachikoma.io/auth/github_on_public"><i class="fa fa-github"></i> write for public repos</a>
+            , you can use shared type pull request.
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="strategies" class="main">
+      <header>
+        <div class="container">
+          <h2 data-i18n="Support strategies">Support strategies</h2>
+        </div>
+      </header>
+      <div class="content dark style2 featured">
+        <div class="container">
+          <ul>
+            <li data-i18n="Bundler (Ruby)">Bundler (Ruby)</li>
+            <li data-i18n="David (Node.js)">David (Node.js)</li>
+            <li data-i18n="Carton (Perl)">Carton (Perl)</li>
+            <li data-i18n="None-strategy">None-strategy (Default, Only Interval Pull Request)</li>
+          </ul>
+          <footer>
+            <a href="https://blue.tachikoma.io/auth/github" class="button"><i class="fa fa-github solo"></i> <span data-i18n="Sign in with GitHub">Sign in with GitHub</span></a>
+          </footer>
+        </div>
+      </div>
+    </section>
+    <section id="pricing" class="main">
+      <header>
+        <div class="container">
+          <h2 data-i18n="Pricing">Pricing</h2>
+        </div>
+      </header>
+      <div class="content dark style3 featured">
+        <div class="container">
+          <p data-i18n="It is free for public repositories">
+            It is free for public repositories,
+            however,
+            requires monthly subscription for private repositories.
+          </p>
+          <ul>
+            <li data-i18n="For public FREE">For public FREE</li>
+            <li><a href="https://gumroad.com/l/JwtkV/init"><i class="fa fa-credit-card solo"></i> <span data-i18n="For private individual">For private individual $9/mo</span> <del>$19</del></a></li>
+            <li><a href="https://gumroad.com/l/oDPx"><i class="fa fa-credit-card solo"></i> <span data-i18n="For private organization">For private organization $49/mo</span></a></li>
+            <li data-i18n="For enterprise">For enterprise, please email: sanemat {AT} tachikoma.io</li>
+          </ul>
+
+          <footer>
+            <a href="https://blue.tachikoma.io/auth/github" class="button"><i class="fa fa-github solo"></i> <span data-i18n="Sign in with GitHub">Sign in with GitHub</span></a>
+          </footer>
+        </div>
+      </div>
+    </section>
+  </main>
+  <section id="footer">
+  <ul class="icons">
+    <li><a href="https://twitter.com/tachikomaio/" class="fa fa-twitter solo"><span>Twitter</span></a></li>
+    <li><a href="https://github.com/sanemat/" class="fa fa-github solo"><span>GitHub</span></a></li>
+  </ul>
+  <div class="copyright">
+    <ul class="menu">
+      <li>Founder: sanemat (sanemat_AT_tachikoma.io)</li>
+      <li>Design: HTML5 UP (http://html5up.net/)</li>
+    </ul>
+  </div>
+  <iframe src="http://expando.github.io/add/?u=http%3A%2F%2Ftachikoma.io%2F&t=Dependency%20Update%20as%20a%20Service%20-%20Tachikoma.io" frameborder=0 frametransparency=1 scrolling=no height=30 width=400>
+  </iframe>
+  </section>
+
+  <script type="text/javascript">
+    window.analytics=window.analytics||[],window.analytics.methods=["identify","group","track","page","pageview","alias","ready","on","once","off","trackLink","trackForm","trackClick","trackSubmit"],window.analytics.factory=function(t){return function(){var a=Array.prototype.slice.call(arguments);return a.unshift(t),window.analytics.push(a),window.analytics}};for(var i=0;i<window.analytics.methods.length;i++){var key=window.analytics.methods[i];window.analytics[key]=window.analytics.factory(key)}window.analytics.load=function(t){if(!document.getElementById("analytics-js")){var a=document.createElement("script");a.type="text/javascript",a.id="analytics-js",a.async=!0,a.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.io/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(a,n)}},window.analytics.SNIPPET_VERSION="2.0.9",
+      window.analytics.load("gk865aa037");
+    window.analytics.page();
+  </script>
+  </body>
+</html>
