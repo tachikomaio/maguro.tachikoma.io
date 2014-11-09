@@ -276,4 +276,4 @@ msgstr "Travis CI and Tachikoma.io (sanemat) / Travis CI Meetup 2014-09-17"
 
 #: ../configuration.html
 msgid "Tachikomaio configuration optional"
-msgstr "Tachikoma.io configuration (optional)"
+msgstr "Tachikoma.io 設定 (オプション)"
