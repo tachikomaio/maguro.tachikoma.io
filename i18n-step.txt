@@ -1,6 +1,6 @@
 # TL;DR
 
-Use gettext format and i18next flow.
+Use GNU gettext format and i18next flow.
 
 # Iteration
 
@@ -12,15 +12,15 @@ Add data-i18n attribute
 This is msgid
 (Caution: Remove period from msgid!)
 
-Add msgid + msgstr to _build/index.pot
+Add msgid + msgstr to _build/translation.pot
 
-$ msgmerge -U _build/index.en.po _build/index.pot
-$ msgmerge -U _build/index.ja.po _build/index.pot
+$ msgmerge -U _build/translation.en.po _build/translation.pot
+$ msgmerge -U _build/translation.ja.po _build/translation.pot
 
 Translate *.po
 
-$ i18next-conv -l ja -s ./_build/index.ja.po -t ./locales/ja/translation.json
-$ i18next-conv -l en -s ./_build/index.en.po -t ./locales/en/translation.json
+$ i18next-conv -l ja -s ./_build/translation.ja.po -t ./locales/ja/translation.json
+$ i18next-conv -l en -s ./_build/translation.en.po -t ./locales/en/translation.json
 
 Done!
 
@@ -36,8 +36,9 @@ index.html to index.rst (pandoc)
 $ ~/.cabal/bin/pandoc -f html -t rst -o index.rst index.html
 index.rst to index.pot (sphinx)
 $ make gettext
+(rename *.pot to translation.pot)
 
-$ msginit --locale=ja --input=_build/locale/index.pot --output=locale/ja/LC_MESSAGES/index.po
+$ msginit --locale=ja --input=_build/translation.pot --output=_build/translation.po
 
 # See: (3日目) Sphinx の文書を翻訳してみよう (gettext機能) Hack like a rolling stone
 # http://tk0miya.hatenablog.com/entry/20111203/p1
