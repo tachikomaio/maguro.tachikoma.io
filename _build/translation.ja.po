@@ -133,20 +133,19 @@ msgstr ""
 
 msgid "Furthermore sometimes with an older version"
 msgstr ""
-"そのうえ、低いバー"
-"ジョンのライブラリを使っていると、ライブラリの新機能、高速化、RubyやNode.jsの"
-"バージョンアップなど、様々なメリットを享受できないことがよくあります。"
+"そのうえ、低いバージョンのライブラリを使っていると、ライブラリの新機能、高速"
+"化、RubyやNode.jsのバージョンアップなど、様々なメリットを享受できないことがよ"
+"くあります。"
 
 msgid "Ultimately choosing the latest stable combination"
 msgstr ""
-"結果的に一番痛みが少ないのは、常に定期的に(安定した)最新版を組み合わせていくことで"
-"す。"
+"結果的に一番痛みが少ないのは、常に定期的に(安定した)最新版を組み合わせていく"
+"ことです。"
 
 # 79ec9dfde9d54a9faf00bebd8f88713f
 #, fuzzy
 msgid "Everyone knows this but whats stopping them"
-msgstr ""
-"ここまでみんな知ってるしわかってるのに、なぜ出来ない?"
+msgstr "ここまでみんな知ってるしわかってるのに、なぜ出来ない?"
 
 # 3d06058598fd47b39070b252dc283e07
 #: ../../index.rst:140
@@ -274,3 +273,7 @@ msgstr "その build passingはいつ?"
 
 msgid "Travis CI Meetup 2014-09-17"
 msgstr "Travis CI and Tachikoma.io (sanemat) / Travis CI Meetup 2014-09-17"
+
+#: ../configuration.html
+msgid "Tachikomaio configuration optional"
+msgstr "Tachikoma.io configuration (optional)"
