@@ -38,7 +38,8 @@ index.rst to index.pot (sphinx)
 $ make gettext
 (rename *.pot to translation.pot)
 
-$ msginit --locale=ja --input=_build/translation.pot --output=_build/translation.po
+$ msginit --locale=ja --input=_build/translation.pot --output=_build/translation.ja.po
+$ msginit --locale=en --input=_build/translation.pot --output=_build/translation.en.po
 
 # See: (3日目) Sphinx の文書を翻訳してみよう (gettext機能) Hack like a rolling stone
 # http://tk0miya.hatenablog.com/entry/20111203/p1
