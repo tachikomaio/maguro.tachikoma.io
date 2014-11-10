@@ -43,5 +43,6 @@
     "For enterprise": "エンタープライズ向け、emailをください: sanemat {AT} tachikoma.io",
     "Talk": "Talk",
     "When was the build passing": "その build passingはいつ?",
-    "Travis CI Meetup 2014-09-17": "Travis CI and Tachikoma.io (sanemat) / Travis CI Meetup 2014-09-17"
+    "Travis CI Meetup 2014-09-17": "Travis CI and Tachikoma.io (sanemat) / Travis CI Meetup 2014-09-17",
+    "Tachikomaio configuration optional": "Tachikoma.io 設定 (オプション)"
 }
