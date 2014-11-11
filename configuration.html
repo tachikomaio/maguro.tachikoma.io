@@ -38,35 +38,45 @@
       </header>
       <div class="content dark style1 featured">
         <div class="container">
-          <p>
-            By default, Tachikoma.io uses
-            <a href="https://github.com/sanemat/tachikoma#setting-example">`none` strategy</a>
-            with no additional setup.
-          </p>
+          <div class="row">
+            <div class="6u">
+              <p>
+                By default, Tachikoma.io uses
+                <a href="https://github.com/sanemat/tachikoma#setting-example">`none` strategy</a>
+                with no additional setup.
+              </p>
 
-          <p>
-            Custom configuration of the style guide is entirely optional and is achieved by specifying rules in
-            <em class="code">.tachikoma.yml</em>
-            file.
-          </p>
+              <p>
+                Custom configuration of the style guide is entirely optional and is achieved by specifying rules in
+                <em class="code">.tachikoma.yml</em>
+                file.
+              </p>
 
-          <p>
-            Tachikoma.io uses
-            <a href="http://rubygems.org/gems/tachikoma">Tachikoma v4.2.2</a>
-            gem to handle the pull request.
-            Thus, some of the Tachikoma configuration are supported in Tachikoma.io as well.
-          </p>
+              <p>
+                Tachikoma.io uses
+                <a href="http://rubygems.org/gems/tachikoma">Tachikoma v4.2.2</a>
+                gem to handle the pull request.
+                Thus, some of the Tachikoma configuration are supported in Tachikoma.io as well.
+              </p>
 
-          <p>
-            Tachikoma.io will look for
-            <em class="code">.tachikoma.yml</em>
-            file in the root of the repo, and apply the custom configuration on top of the
-            default configuration.
-          </p>
-          <pre><code class="language-yaml">
-            #.tachikoma.yml
-            strategy: 'bundler'
-          </code></pre>
+              <p>
+                Tachikoma.io will look for
+                <em class="code">.tachikoma.yml</em>
+                file in the root of the repo, and apply the custom configuration on top of the
+                default configuration.
+              </p>
+
+            </div>
+            <div class="6u">
+              <pre>
+<code class="language-yaml">#.tachikoma.yml
+strategy: 'bundler'</code>
+</pre>
+              <pre>
+<code class="language-bash">$ curl -L https://example.com</code>
+</pre>
+            </div>
+          </div>
 
           <footer>
             <a href="https://blue.tachikoma.io/auth/github" class="button"><i class="fa fa-github solo"></i> <span data-i18n="Sign in with GitHub">Sign in with GitHub</span></a>
