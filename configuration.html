@@ -81,6 +81,81 @@ strategy: 'none'</code>
         </div>
       </div>
     </section>
+    <section id="strategy" class="main">
+      <header>
+        <div class="container">
+          <h2 data-i18n="Strategy">Strategy</h2>
+        </div>
+      </header>
+      <div class="content dark style2 featured">
+        <div class="container">
+          <div class="row">
+            <div class="6u">
+              <p>
+                If you want to run Tachikoma.io against rubygems library (e.g. Tachikoma), you should set <em>strategy: 'none'</em>:
+              </p>
+              <pre>
+<code class="language-yaml"># .tachikoma.yml
+  strategy: 'none'</code>
+</pre>
+              <p>link to bundler.</p>
+              <p>
+                Column: Why I set `strategy: none` ? This is how to treat `Gemfile.lock`.
+              </p>
+              <p>
+                If you want to run Tachikoma.io against rails application (e.g. <a href="https://github.com/rubygems/rubygems.org">rubygems.org</a>), you should set <em>strategy: 'bundler'</em>:
+              </p>
+              <pre>
+<code class="language-yaml"># .tachikoma.yml
+  strategy: 'bundler'</code>
+</pre>
+              <p>link to bundler.</p>
+              <p>
+                If you want to run Tachikoma.io against node.js library(e.g. <a href="http://example.com">foo</a>), you should set <em>strategy: 'david'</em>:
+              </p>
+              <pre>
+<code class="language-yaml"># .tachikoma.yml
+  strategy: 'david'</code>
+</pre>
+              <p>link to david, david-mm</p>
+
+              <p>
+                If you want to run Tachikoma.io against node.js application(e.g. foo), you should set <em>strategy: 'david'</em>:
+              </p>
+              <pre>
+<code class="language-yaml"># .tachikoma.yml
+  strategy: 'david'</code>
+</pre>
+              <p>link to david, david-mm</p>
+
+              <p>
+                If you want to run Tachikoma.io against perl library(e.g. foo), you should set <em>strategy: 'none'</em>:
+              </p>
+              <pre>
+<code class="language-yaml"># .tachikoma.yml
+  strategy: 'none'</code>
+</pre>
+              <p>link to carton</p>
+              <p>
+                If you want to run Tachikoma.io against perl application(e.g. foo), you should set <em>strategy: 'carton'</em>:
+              </p>
+              <pre>
+<code class="language-yaml"># .tachikoma.yml
+  strategy: 'carton'</code>
+</pre>
+              <p>link to carton</p>
+
+            </div>
+            <div class="6u">
+
+              <footer>
+                <a href="https://blue.tachikoma.io/auth/github" class="button"><i class="fa fa-github solo"></i> <span data-i18n="Sign in with GitHub">Sign in with GitHub</span></a>
+              </footer>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <section id="custom-configure" class="main">
       <header>
         <div class="container">
