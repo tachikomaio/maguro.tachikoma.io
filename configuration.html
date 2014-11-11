@@ -58,6 +58,12 @@
                 gem to handle the pull request.
                 Thus, some of the Tachikoma configuration are supported in Tachikoma.io as well.
               </p>
+            </div>
+            <div class="6u">
+              <pre>
+<code class="language-yaml"># .tachikoma.yml
+strategy: 'none'</code>
+</pre>
 
               <p>
                 Tachikoma.io will look for
@@ -65,13 +71,6 @@
                 file in the root of the repo, and apply the custom configuration on top of the
                 default configuration.
               </p>
-
-            </div>
-            <div class="6u">
-              <pre>
-<code class="language-yaml"># .tachikoma.yml
-strategy: 'none'</code>
-</pre>
 
               <footer>
                 <a href="https://blue.tachikoma.io/auth/github" class="button"><i class="fa fa-github solo"></i> <span data-i18n="Sign in with GitHub">Sign in with GitHub</span></a>
@@ -91,16 +90,27 @@ strategy: 'none'</code>
         <div class="container">
           <div class="row">
             <div class="6u">
+              <h3>Rubygems</h3>
               <p>
-                If you want to run Tachikoma.io against rubygems library (e.g. Tachikoma), you should set <em>strategy: 'none'</em>:
+                If you want to run Tachikoma.io against Rubygems library (e.g. <a href="https://github.com/sanemat/tachikoma">Tachikoma</a>), you should set <em>strategy: 'none'</em>:
               </p>
               <pre>
 <code class="language-yaml"># .tachikoma.yml
   strategy: 'none'</code>
 </pre>
-              <p>link to bundler.</p>
+
+              <pre>
+<code class="language-bash"># Download setting for none
+$ curl -L -O http://tachikoma.io/example/none/.tachikoma.yml</code>
+</pre>
               <p>
-                Column: Why I set `strategy: none` ? This is how to treat `Gemfile.lock`.
+                Column: Why I set not `strategy: bundler` but `strategy: none` ?
+                This is how to treat `Gemfile.lock`.
+                You can see precise entry below.
+                <ul>
+                  <li><a href="http://yehudakatz.com/2010/12/16/clarifying-the-roles-of-the-gemspec-and-gemfile/">Clarifying the Roles of the .gemspec and Gemfile « Katz Got Your Tongue?</a></li>
+                  <li><a href="http://sanemat.github.io/archives/langturn.com-translations-33/">gemspecとGemfileの役割をはっきりさせておく</a></li>
+                </ul>
               </p>
               <p>
                 If you want to run Tachikoma.io against rails application (e.g. <a href="https://github.com/rubygems/rubygems.org">rubygems.org</a>), you should set <em>strategy: 'bundler'</em>:
