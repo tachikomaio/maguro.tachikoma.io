@@ -9,10 +9,16 @@
     <link rel="canonical" href="http://tachikoma.io/configuration.html">
     <link href="http://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,400,400italic" rel="stylesheet" type="text/css" />
     <!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style-wide.css" />
+    <link rel="stylesheet" href="css/style-normal.css" />
+    <link rel="stylesheet" href="css/prism.css" />
     <script src="js/jquery.min.js"></script>
     <script src="js/skel.min.js"></script>
     <script src="js/i18next-1.7.4.min.js"></script>
     <script src="js/init.js"></script>
+    <script src="js/prism.js"></script>
+    <script src="js/prism-yaml.js"></script>
     <noscript>
       <link rel="stylesheet" href="css/skel-noscript.css" />
       <link rel="stylesheet" href="css/style.css" />
@@ -32,35 +38,121 @@
       </header>
       <div class="content dark style1 featured">
         <div class="container">
-          <p>
-            By default, Tachikoma.io uses
-            <a href="https://github.com/sanemat/tachikoma#setting-example">`none` strategy</a>
-            with no additional setup.
-          </p>
+          <div class="row">
+            <div class="6u">
+              <p>
+                By default, Tachikoma.io uses
+                <a href="https://github.com/sanemat/tachikoma#setting-example">`none` strategy</a>
+                without any additional setup.
+              </p>
 
-          <p>
-            Custom configuration of the style guide is entirely optional and is achieved by specifying rules in
-            <em class="code">.tachikoma.yml</em>
-            file.
-          </p>
+              <p>
+                Custom configuration is entirely optional and is achieved by specifying rules in
+                <em class="code">.tachikoma.yml</em>
+                file.
+              </p>
 
-          <p>
-            Tachikoma.io uses
-            <a href="http://rubygems.org/gems/tachikoma">Tachikoma v4.2.2</a>
-            gem to handle the pull request.
-            Thus, some of the Tachikoma configuration are supported in Tachikoma.io as well.
-          </p>
+              <p>
+                Tachikoma.io uses
+                <a href="http://rubygems.org/gems/tachikoma">Tachikoma v4.2.2</a>
+                gem to handle the pull request.
+                Thus, some of the Tachikoma configuration are supported in Tachikoma.io as well.
+              </p>
 
-          <p>
-            Tachikoma.io will look for
-            <em class="code">.tachikoma.yml</em>
-            file in the root of the repo, and apply the custom configuration on top of the
-            default configuration.
-          </p>
+              <p>
+                Tachikoma.io will look for
+                <em class="code">.tachikoma.yml</em>
+                file in the root of the repo, and apply the custom configuration on top of the
+                default configuration.
+              </p>
 
-          <footer>
-            <a href="https://blue.tachikoma.io/auth/github" class="button"><i class="fa fa-github solo"></i> <span data-i18n="Sign in with GitHub">Sign in with GitHub</span></a>
-          </footer>
+            </div>
+            <div class="6u">
+              <pre>
+<code class="language-yaml"># .tachikoma.yml
+strategy: 'none'</code>
+</pre>
+
+              <footer>
+                <a href="https://blue.tachikoma.io/auth/github" class="button"><i class="fa fa-github solo"></i> <span data-i18n="Sign in with GitHub">Sign in with GitHub</span></a>
+              </footer>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="strategy" class="main">
+      <header>
+        <div class="container">
+          <h2 data-i18n="Strategy">Strategy</h2>
+        </div>
+      </header>
+      <div class="content dark style2 featured">
+        <div class="container">
+          <div class="row">
+            <div class="6u">
+              <p>
+                If you want to run Tachikoma.io against rubygems library (e.g. Tachikoma), you should set <em>strategy: 'none'</em>:
+              </p>
+              <pre>
+<code class="language-yaml"># .tachikoma.yml
+  strategy: 'none'</code>
+</pre>
+              <p>link to bundler.</p>
+              <p>
+                Column: Why I set `strategy: none` ? This is how to treat `Gemfile.lock`.
+              </p>
+              <p>
+                If you want to run Tachikoma.io against rails application (e.g. <a href="https://github.com/rubygems/rubygems.org">rubygems.org</a>), you should set <em>strategy: 'bundler'</em>:
+              </p>
+              <pre>
+<code class="language-yaml"># .tachikoma.yml
+  strategy: 'bundler'</code>
+</pre>
+              <p>link to bundler.</p>
+              <p>
+                If you want to run Tachikoma.io against node.js library(e.g. <a href="http://example.com">foo</a>), you should set <em>strategy: 'david'</em>:
+              </p>
+              <pre>
+<code class="language-yaml"># .tachikoma.yml
+  strategy: 'david'</code>
+</pre>
+              <p>link to david, david-mm</p>
+
+              <p>
+                If you want to run Tachikoma.io against node.js application(e.g. foo), you should set <em>strategy: 'david'</em>:
+              </p>
+              <pre>
+<code class="language-yaml"># .tachikoma.yml
+  strategy: 'david'</code>
+</pre>
+              <p>link to david, david-mm</p>
+
+              <p>
+                If you want to run Tachikoma.io against perl library(e.g. foo), you should set <em>strategy: 'none'</em>:
+              </p>
+              <pre>
+<code class="language-yaml"># .tachikoma.yml
+  strategy: 'none'</code>
+</pre>
+              <p>link to carton</p>
+              <p>
+                If you want to run Tachikoma.io against perl application(e.g. foo), you should set <em>strategy: 'carton'</em>:
+              </p>
+              <pre>
+<code class="language-yaml"># .tachikoma.yml
+  strategy: 'carton'</code>
+</pre>
+              <p>link to carton</p>
+
+            </div>
+            <div class="6u">
+
+              <footer>
+                <a href="https://blue.tachikoma.io/auth/github" class="button"><i class="fa fa-github solo"></i> <span data-i18n="Sign in with GitHub">Sign in with GitHub</span></a>
+              </footer>
+            </div>
+          </div>
         </div>
       </div>
     </section>
