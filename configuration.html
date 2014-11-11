@@ -13,11 +13,14 @@
     <script src="js/skel.min.js"></script>
     <script src="js/i18next-1.7.4.min.js"></script>
     <script src="js/init.js"></script>
+    <script src="js/prism.js"></script>
+    <script src="js/prism-yaml.js"></script>
     <noscript>
       <link rel="stylesheet" href="css/skel-noscript.css" />
-      <link rel="stylesheet" href="css/style.css" />
-      <link rel="stylesheet" href="css/style-wide.css" />
     </noscript>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style-wide.css" />
+    <link rel="stylesheet" href="css/prism.css" />
     <!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
     <!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
   </head>
@@ -57,6 +60,10 @@
             file in the root of the repo, and apply the custom configuration on top of the
             default configuration.
           </p>
+          <pre><code class="language-yaml">
+            #.tachikoma.yml
+            strategy: 'bundler'
+          </code></pre>
 
           <footer>
             <a href="https://blue.tachikoma.io/auth/github" class="button"><i class="fa fa-github solo"></i> <span data-i18n="Sign in with GitHub">Sign in with GitHub</span></a>
