@@ -53,5 +53,21 @@
     "Tachikomaio uses": "Tachikoma.ioは",
     "gem to handle the pull request": "をpull requestの操作に使います。このため、Tachikoma rubygemの設定記法のいくつかはTachikoma.ioでもサポートしています。",
     "Tachikomaio will look for": "Tachikoma.ioは",
-    "file in the root of the repo": "ファイルをリポジトリのトップで探します。そしてそのカスタム設定を適用します。"
+    "file in the root of the repo": "ファイルをリポジトリのトップで探します。そしてそのカスタム設定を適用します。",
+    "If you want to run Tachikomaio against Rubygems library": "If you want to run Tachikoma.io against Rubygems library",
+    "you should set": "you should set",
+    "Why I set not bundler but none": "Column: Why I set not `strategy: bundler` but `strategy: none` ? This is how to treat `Gemfile.lock`. You can see precise entry below.",
+    "Rails application and any other app with Bundler": "Rails application (and any other app with Bundler",
+    "If you want to run Tachikomaio against Rails application": "If you want to run Tachikoma.io against Rails application",
+    "NPM Module": "NPM Module",
+    "If you want to run Tachikomaio against NPM Module": "If you want to run Tachikoma.io against NPM Module",
+    "Nodejs application": "Node.js application",
+    "If you want to run Tachikomaio against Nodejs application with NPM": "If you want to run Tachikoma.io against Node.js application with NPM",
+    "Perl library": "Perl library",
+    "If you want to run Tachikomaio against Perl library with Carton": "If you want to run Tachikoma.io against Perl library with Carton, you should set",
+    "Perl application": "Perl application",
+    "If you want to run Tachikomaio against Perl application with Carton": "If you want to run Tachikoma.io against Perl application with Carton",
+    "GitHub Authentication": "GitHub Authentication",
+    "if you give additional permission": "If you give additional permission",
+    "you can use shared type pull request": "をpull requestの操作に使います。このため、Tachikoma rubygemの設定記法のいくつかはTachikoma.ioでもサポートしています。"
 }
