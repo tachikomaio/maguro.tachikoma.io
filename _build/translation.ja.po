@@ -312,6 +312,10 @@ msgid "file in the root of the repo"
 msgstr ""
 "ファイルをリポジトリのトップで探します。そしてそのカスタム設定を適用します。"
 
+# ab605163b951439b96bbdcd410e13e30
+msgid "Set strategy"
+msgstr "ストラテジーを設定する"
+
 msgid "Rubygems"
 msgstr "Rubygems"
 
@@ -323,8 +327,9 @@ msgstr "以下のように設定します。"
 
 msgid "Why I set not bundler but none"
 msgstr ""
-"コラム: どうして`strategy: bundler`ではなく`startegy: none`に設定するのでしょう? これは`Gemfile.lock`を"
-"どのように取り扱うかという問題です。以下のエントリーで詳細を確認しましょう。"
+"コラム: どうして`strategy: bundler`ではなく`startegy: none`に設定するのでしょ"
+"う? これは`Gemfile.lock`をどのように取り扱うかという問題です。以下のエント"
+"リーで詳細を確認しましょう。"
 
 msgid "Rails application and any other app with Bundler"
 msgstr "Railsアプリケーションとそれ以外のBundlerを使ったアプリケーション"

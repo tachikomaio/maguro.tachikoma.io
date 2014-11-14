@@ -310,6 +310,10 @@ msgstr ""
 "file in the root of the repo, and apply the custom configuration on top of "
 "the default configuration."
 
+# ab605163b951439b96bbdcd410e13e30
+msgid "Set strategy"
+msgstr "Set strategy"
+
 msgid "Rubygems"
 msgstr "Rubygems"
 
