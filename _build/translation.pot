@@ -270,6 +270,9 @@ msgstr "Tachikoma.io will look for"
 msgid "file in the root of the repo"
 msgstr "file in the root of the repo, and apply the custom configuration on top of the default configuration."
 
+msgid "Rubygems"
+msgstr "Rubygems"
+
 msgid "If you want to run Tachikomaio against Rubygems library"
 msgstr "If you want to run Tachikoma.io against Rubygems library"
 

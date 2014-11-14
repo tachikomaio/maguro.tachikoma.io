@@ -312,6 +312,9 @@ msgid "file in the root of the repo"
 msgstr ""
 "ファイルをリポジトリのトップで探します。そしてそのカスタム設定を適用します。"
 
+msgid "Rubygems"
+msgstr "Rubygems"
+
 msgid "If you want to run Tachikomaio against Rubygems library"
 msgstr "If you want to run Tachikoma.io against Rubygems library"
 

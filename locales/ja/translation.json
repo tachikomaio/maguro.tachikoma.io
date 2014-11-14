@@ -54,6 +54,7 @@
     "gem to handle the pull request": "をpull requestの操作に使います。このため、Tachikoma rubygemの設定記法のいくつかはTachikoma.ioでもサポートしています。",
     "Tachikomaio will look for": "Tachikoma.ioは",
     "file in the root of the repo": "ファイルをリポジトリのトップで探します。そしてそのカスタム設定を適用します。",
+    "Rubygems": "Rubygems",
     "If you want to run Tachikomaio against Rubygems library": "If you want to run Tachikoma.io against Rubygems library",
     "you should set": "you should set",
     "Why I set not bundler but none": "Column: Why I set not `strategy: bundler` but `strategy: none` ? This is how to treat `Gemfile.lock`. You can see precise entry below.",
@@ -69,5 +70,5 @@
     "If you want to run Tachikomaio against Perl application with Carton": "If you want to run Tachikoma.io against Perl application with Carton",
     "GitHub Authentication": "GitHub Authentication",
     "if you give additional permission": "If you give additional permission",
-    "you can use shared type pull request": "をpull requestの操作に使います。このため、Tachikoma rubygemの設定記法のいくつかはTachikoma.ioでもサポートしています。"
+    "you can use shared type pull request": ""
 }
