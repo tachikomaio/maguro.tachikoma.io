@@ -316,54 +316,52 @@ msgid "Rubygems"
 msgstr "Rubygems"
 
 msgid "If you want to run Tachikomaio against Rubygems library"
-msgstr "If you want to run Tachikoma.io against Rubygems library"
+msgstr "Tachikoma.ioをRubygemsライブラリに対して使う"
 
 msgid "you should set"
-msgstr "you should set"
+msgstr "以下のように設定します。"
 
 msgid "Why I set not bundler but none"
 msgstr ""
-"Column: Why I set not `strategy: bundler` but `strategy: none` ? This is how "
-"to treat `Gemfile.lock`. You can see precise entry below."
+"コラム: どうして`strategy: bundler`ではなく`startegy: none`に設定するのでしょう? これは`Gemfile.lock`を"
+"どのように取り扱うかという問題です。以下のエントリーで詳細を確認しましょう。"
 
 msgid "Rails application and any other app with Bundler"
-msgstr "Rails application (and any other app with Bundler"
+msgstr "Railsアプリケーションとそれ以外のBundlerを使ったアプリケーション"
 
 msgid "If you want to run Tachikomaio against Rails application"
-msgstr "If you want to run Tachikoma.io against Rails application"
+msgstr "Tachikoma.ioをRailsアプリケーションに対して使う"
 
 msgid "NPM Module"
-msgstr "NPM Module"
+msgstr "NPM モジュール"
 
 msgid "If you want to run Tachikomaio against NPM Module"
-msgstr "If you want to run Tachikoma.io against NPM Module"
+msgstr "Tachikoma.ioをNPMモジュールに対して使う"
 
 msgid "Nodejs application"
-msgstr "Node.js application"
+msgstr "Node.jsアプリケーション"
 
 msgid "If you want to run Tachikomaio against Nodejs application with NPM"
-msgstr "If you want to run Tachikoma.io against Node.js application with NPM"
+msgstr "Tachikoma.ioをNode.jsアプリケーションに対して使う。"
 
 msgid "Perl library"
-msgstr "Perl library"
+msgstr "Perlライブラリ"
 
 msgid "If you want to run Tachikomaio against Perl library with Carton"
-msgstr ""
-"If you want to run Tachikoma.io against Perl library with Carton, you should "
-"set"
+msgstr "Tachikoma.ioをCartonを使ったPerlライブらいに対して使う"
 
 msgid "Perl application"
-msgstr "Perl application"
+msgstr "Perl アプリケーション"
 
 msgid "If you want to run Tachikomaio against Perl application with Carton"
-msgstr "If you want to run Tachikoma.io against Perl application with Carton"
+msgstr "Tachikoma.ioをPerlアプリケーションに対して使う"
 
 msgid "GitHub Authentication"
-msgstr "GitHub Authentication"
+msgstr "GitHub連携"
 
 msgid "if you give additional permission"
-msgstr "If you give additional permission"
+msgstr "追加で書き込み権限も許可すると"
 
 # bc6897da470a477faf234c8ea47d8a3a
 msgid "you can use shared type pull request"
-msgstr ""
+msgstr "shared type pull requestが使えるようになります。"
