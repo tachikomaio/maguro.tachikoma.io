@@ -301,7 +301,9 @@ msgstr "Tachikoma.ioは"
 
 # bc6897da470a477faf234c8ea47d8a3a
 msgid "gem to handle the pull request"
-msgstr "をpull requestの操作に使います。このため、Tachikoma rubygemの設定記法のいくつかはTachikoma.ioでもサポートしています。"
+msgstr ""
+"をpull requestの操作に使います。このため、Tachikoma rubygemの設定記法のいくつ"
+"かはTachikoma.ioでもサポートしています。"
 
 msgid "Tachikomaio will look for"
 msgstr "Tachikoma.ioは"
@@ -309,3 +311,59 @@ msgstr "Tachikoma.ioは"
 msgid "file in the root of the repo"
 msgstr ""
 "ファイルをリポジトリのトップで探します。そしてそのカスタム設定を適用します。"
+
+msgid "If you want to run Tachikomaio against Rubygems library"
+msgstr "If you want to run Tachikoma.io against Rubygems library"
+
+msgid "you should set"
+msgstr "you should set"
+
+msgid "Why I set not bundler but none"
+msgstr ""
+"Column: Why I set not `strategy: bundler` but `strategy: none` ? This is how "
+"to treat `Gemfile.lock`. You can see precise entry below."
+
+msgid "Rails application and any other app with Bundler"
+msgstr "Rails application (and any other app with Bundler"
+
+msgid "If you want to run Tachikomaio against Rails application"
+msgstr "If you want to run Tachikoma.io against Rails application"
+
+msgid "NPM Module"
+msgstr "NPM Module"
+
+msgid "If you want to run Tachikomaio against NPM Module"
+msgstr "If you want to run Tachikoma.io against NPM Module"
+
+msgid "Nodejs application"
+msgstr "Node.js application"
+
+msgid "If you want to run Tachikomaio against Nodejs application with NPM"
+msgstr "If you want to run Tachikoma.io against Node.js application with NPM"
+
+msgid "Perl library"
+msgstr "Perl library"
+
+msgid "If you want to run Tachikomaio against Perl library with Carton"
+msgstr ""
+"If you want to run Tachikoma.io against Perl library with Carton, you should "
+"set"
+
+msgid "Perl application"
+msgstr "Perl application"
+
+msgid "If you want to run Tachikomaio against Perl application with Carton"
+msgstr "If you want to run Tachikoma.io against Perl application with Carton"
+
+msgid "GitHub Authentication"
+msgstr "GitHub Authentication"
+
+msgid "if you give additional permission"
+msgstr "If you give additional permission"
+
+# bc6897da470a477faf234c8ea47d8a3a
+#, fuzzy
+msgid "you can use shared type pull request"
+msgstr ""
+"をpull requestの操作に使います。このため、Tachikoma rubygemの設定記法のいくつ"
+"かはTachikoma.ioでもサポートしています。"
