@@ -362,8 +362,5 @@ msgid "if you give additional permission"
 msgstr "If you give additional permission"
 
 # bc6897da470a477faf234c8ea47d8a3a
-#, fuzzy
 msgid "you can use shared type pull request"
 msgstr ""
-"をpull requestの操作に使います。このため、Tachikoma rubygemの設定記法のいくつ"
-"かはTachikoma.ioでもサポートしています。"
