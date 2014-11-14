@@ -54,6 +54,7 @@
     "gem to handle the pull request": "をpull requestの操作に使います。このため、Tachikoma rubygemの設定記法のいくつかはTachikoma.ioでもサポートしています。",
     "Tachikomaio will look for": "Tachikoma.ioは",
     "file in the root of the repo": "ファイルをリポジトリのトップで探します。そしてそのカスタム設定を適用します。",
+    "Set strategy": "ストラテジーを設定する",
     "Rubygems": "Rubygems",
     "If you want to run Tachikomaio against Rubygems library": "Tachikoma.ioをRubygemsライブラリに対して使う",
     "you should set": "以下のように設定します。",
