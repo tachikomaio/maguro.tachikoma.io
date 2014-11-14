@@ -242,3 +242,21 @@ msgstr "Travis CI and Tachikoma.io (sanemat) / Travis CI Meetup 2014-09-17"
 #: ../configuration.html
 msgid "Tachikomaio configuration optional"
 msgstr "Tachikoma.io configuration (optional)"
+
+msgid "By default Tachikomaio uses"
+msgstr "By default, Tachikoma.io uses"
+
+msgid "none strategy"
+msgstr "`none` strategy"
+
+msgid "without any additional setup"
+msgstr "without any additional setup."
+
+msgid "Custom configuration is entirely optional"
+msgstr "Custom configuration is entirely optional and is achieved by specifying rules in"
+
+msgid "file"
+msgstr "file."
+
+msgid "Tachikomaio uses"
+msgstr "Tachikoma.io uses"
