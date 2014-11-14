@@ -50,5 +50,8 @@
     "without any additional setup": "without any additional setup.",
     "Custom configuration is entirely optional": "Custom configuration is entirely optional and is achieved by specifying rules in",
     "file": "file.",
-    "Tachikomaio uses": "Tachikoma.io uses"
+    "Tachikomaio uses": "Tachikoma.io uses",
+    "gem to handle the pull request": "gem to handle the pull request. Thus, some of the Tachikoma configuration are supported in Tachikoma.io as well.",
+    "Tachikomaio will look for": "Tachikoma.io will look for",
+    "file in the root of the repo": "file in the root of the repo, and apply the custom configuration on top of the default configuration."
 }

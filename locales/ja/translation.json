@@ -50,5 +50,8 @@
     "without any additional setup": "を使います。",
     "Custom configuration is entirely optional": "カスタム設定は完全にオプションで、設定は",
     "file": "ファイルに保存します。",
-    "Tachikomaio uses": "Tachikoma.ioは"
+    "Tachikomaio uses": "Tachikoma.ioは",
+    "gem to handle the pull request": "をpull requestの操作に使います。このため、Tachikoma rubygemの設定記法のいくつかはTachikoma.ioでもサポートしています。",
+    "Tachikomaio will look for": "Tachikoma.ioは",
+    "file in the root of the repo": "ファイルをリポジトリのトップで探します。そしてそのカスタム設定を適用します。"
 }

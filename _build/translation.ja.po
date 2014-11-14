@@ -300,14 +300,12 @@ msgid "Tachikomaio uses"
 msgstr "Tachikoma.ioは"
 
 # bc6897da470a477faf234c8ea47d8a3a
-#, fuzzy
 msgid "gem to handle the pull request"
-msgstr "定期的な pull request"
+msgstr "をpull requestの操作に使います。このため、Tachikoma rubygemの設定記法のいくつかはTachikoma.ioでもサポートしています。"
 
 msgid "Tachikomaio will look for"
-msgstr "Tachikoma.io will look for"
+msgstr "Tachikoma.ioは"
 
 msgid "file in the root of the repo"
 msgstr ""
-"file in the root of the repo, and apply the custom configuration on top of "
-"the default configuration."
+"ファイルをリポジトリのトップで探します。そしてそのカスタム設定を適用します。"

@@ -298,9 +298,8 @@ msgid "Tachikomaio uses"
 msgstr "Tachikoma.io uses"
 
 # bc6897da470a477faf234c8ea47d8a3a
-#, fuzzy
 msgid "gem to handle the pull request"
-msgstr "Interval pull request"
+msgstr "gem to handle the pull request. Thus, some of the Tachikoma configuration are supported in Tachikoma.io as well."
 
 msgid "Tachikomaio will look for"
 msgstr "Tachikoma.io will look for"
