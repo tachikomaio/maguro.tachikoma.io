@@ -44,5 +44,11 @@
     "Talk": "Talk",
     "When was the build passing": "When was the build passing?",
     "Travis CI Meetup 2014-09-17": "Travis CI and Tachikoma.io (sanemat) / Travis CI Meetup 2014-09-17",
-    "Tachikomaio configuration optional": "Tachikoma.io configuration (optional)"
+    "Tachikomaio configuration optional": "Tachikoma.io configuration (optional)",
+    "By default Tachikomaio uses": "By default, Tachikoma.io uses",
+    "none strategy": "`none` strategy",
+    "without any additional setup": "without any additional setup.",
+    "Custom configuration is entirely optional": "Custom configuration is entirely optional and is achieved by specifying rules in",
+    "file": "file.",
+    "Tachikomaio uses": "Tachikoma.io uses"
 }
