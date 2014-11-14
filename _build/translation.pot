@@ -253,10 +253,10 @@ msgid "without any additional setup"
 msgstr "without any additional setup."
 
 msgid "Custom configuration is entirely optional"
-msgstr "Custom configuration is entirely optional and is achieved by specifying rules in"
+msgstr "Custom configuration is entirely optional. If you want to set this, you write"
 
 msgid "file"
-msgstr "file."
+msgstr "and git commit and push to your repository."
 
 msgid "Tachikomaio uses"
 msgstr "Tachikoma.io uses"
