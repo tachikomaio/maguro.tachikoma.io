@@ -260,3 +260,12 @@ msgstr "file."
 
 msgid "Tachikomaio uses"
 msgstr "Tachikoma.io uses"
+
+msgid "gem to handle the pull request"
+msgstr "gem to handle the pull request. Thus, some of the Tachikoma configuration are supported in Tachikoma.io as well."
+
+msgid "Tachikomaio will look for"
+msgstr "Tachikoma.io will look for"
+
+msgid "file in the root of the repo"
+msgstr "file in the root of the repo, and apply the custom configuration on top of the default configuration."

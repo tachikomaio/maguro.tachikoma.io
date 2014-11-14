@@ -298,3 +298,16 @@ msgstr "ファイルに保存します。"
 # a30ef4b45488420c8cf1fc6cb61f6764
 msgid "Tachikomaio uses"
 msgstr "Tachikoma.ioは"
+
+# bc6897da470a477faf234c8ea47d8a3a
+#, fuzzy
+msgid "gem to handle the pull request"
+msgstr "定期的な pull request"
+
+msgid "Tachikomaio will look for"
+msgstr "Tachikoma.io will look for"
+
+msgid "file in the root of the repo"
+msgstr ""
+"file in the root of the repo, and apply the custom configuration on top of "
+"the default configuration."

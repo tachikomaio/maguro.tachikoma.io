@@ -286,7 +286,9 @@ msgid "without any additional setup"
 msgstr "without any additional setup."
 
 msgid "Custom configuration is entirely optional"
-msgstr "Custom configuration is entirely optional and is achieved by specifying rules in"
+msgstr ""
+"Custom configuration is entirely optional and is achieved by specifying "
+"rules in"
 
 msgid "file"
 msgstr "file."
@@ -294,3 +296,16 @@ msgstr "file."
 # a30ef4b45488420c8cf1fc6cb61f6764
 msgid "Tachikomaio uses"
 msgstr "Tachikoma.io uses"
+
+# bc6897da470a477faf234c8ea47d8a3a
+#, fuzzy
+msgid "gem to handle the pull request"
+msgstr "Interval pull request"
+
+msgid "Tachikomaio will look for"
+msgstr "Tachikoma.io will look for"
+
+msgid "file in the root of the repo"
+msgstr ""
+"file in the root of the repo, and apply the custom configuration on top of "
+"the default configuration."
