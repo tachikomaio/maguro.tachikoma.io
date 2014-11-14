@@ -277,3 +277,91 @@ msgstr "Travis CI and Tachikoma.io (sanemat) / Travis CI Meetup 2014-09-17"
 #: ../configuration.html
 msgid "Tachikomaio configuration optional"
 msgstr "Tachikoma.io 設定 (オプション)"
+
+# a30ef4b45488420c8cf1fc6cb61f6764
+msgid "By default Tachikomaio uses"
+msgstr "設定なしの初期値として、Tachikoma.ioは"
+
+# ab605163b951439b96bbdcd410e13e30
+msgid "none strategy"
+msgstr "`none` のストラテジー"
+
+msgid "without any additional setup"
+msgstr "を使います。"
+
+msgid "Custom configuration is entirely optional"
+msgstr "カスタム設定は完全にオプションで、設定は"
+
+msgid "file"
+msgstr "ファイルに保存します。"
+
+# a30ef4b45488420c8cf1fc6cb61f6764
+msgid "Tachikomaio uses"
+msgstr "Tachikoma.ioは"
+
+# bc6897da470a477faf234c8ea47d8a3a
+msgid "gem to handle the pull request"
+msgstr ""
+"をpull requestの操作に使います。このため、Tachikoma rubygemの設定記法のいくつ"
+"かはTachikoma.ioでもサポートしています。"
+
+msgid "Tachikomaio will look for"
+msgstr "Tachikoma.ioは"
+
+msgid "file in the root of the repo"
+msgstr ""
+"ファイルをリポジトリのトップで探します。そしてそのカスタム設定を適用します。"
+
+msgid "Rubygems"
+msgstr "Rubygems"
+
+msgid "If you want to run Tachikomaio against Rubygems library"
+msgstr "Tachikoma.ioをRubygemsライブラリに対して使う"
+
+msgid "you should set"
+msgstr "以下のように設定します。"
+
+msgid "Why I set not bundler but none"
+msgstr ""
+"コラム: どうして`strategy: bundler`ではなく`startegy: none`に設定するのでしょう? これは`Gemfile.lock`を"
+"どのように取り扱うかという問題です。以下のエントリーで詳細を確認しましょう。"
+
+msgid "Rails application and any other app with Bundler"
+msgstr "Railsアプリケーションとそれ以外のBundlerを使ったアプリケーション"
+
+msgid "If you want to run Tachikomaio against Rails application"
+msgstr "Tachikoma.ioをRailsアプリケーションに対して使う"
+
+msgid "NPM Module"
+msgstr "NPM モジュール"
+
+msgid "If you want to run Tachikomaio against NPM Module"
+msgstr "Tachikoma.ioをNPMモジュールに対して使う"
+
+msgid "Nodejs application"
+msgstr "Node.jsアプリケーション"
+
+msgid "If you want to run Tachikomaio against Nodejs application with NPM"
+msgstr "Tachikoma.ioをNode.jsアプリケーションに対して使う。"
+
+msgid "Perl library"
+msgstr "Perlライブラリ"
+
+msgid "If you want to run Tachikomaio against Perl library with Carton"
+msgstr "Tachikoma.ioをCartonを使ったPerlライブらいに対して使う"
+
+msgid "Perl application"
+msgstr "Perl アプリケーション"
+
+msgid "If you want to run Tachikomaio against Perl application with Carton"
+msgstr "Tachikoma.ioをPerlアプリケーションに対して使う"
+
+msgid "GitHub Authentication"
+msgstr "GitHub連携"
+
+msgid "if you give additional permission"
+msgstr "追加で書き込み権限も許可すると"
+
+# bc6897da470a477faf234c8ea47d8a3a
+msgid "you can use shared type pull request"
+msgstr "shared type pull requestが使えるようになります。"
